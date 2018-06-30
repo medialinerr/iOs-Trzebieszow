@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Herb" translatesAutoresizingMaskIntoConstraints="NO" id="vV5-Vv-bYX">
+                                <rect key="frame" x="140" y="70" width="94" height="123.5"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="vV5-Vv-bYX" secondAttribute="height" multiplier="16:21" id="EbA-ZG-ubr"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="c9I-Oh-w6L">
+                                <rect key="frame" x="0.0" y="220.5" width="375" height="117"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="Dzień dobry!">
+                                        <attributes>
+                                            <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="24" name="Verdana-Bold"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">
+Witaj w aplikacji
+</string>
+                                        <attributes>
+                                            <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="24" name="Verdana"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">ENERGII SŁONECZNEJ
+</string>
+                                        <attributes>
+                                            <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="24" name="Verdana-Bold"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="W Gminie Trzebieszów">
+                                        <attributes>
+                                            <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="24" name="Verdana"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <color key="highlightedColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="SolaryWitaj" translatesAutoresizingMaskIntoConstraints="NO" id="5QY-dI-RFT">
+                                <rect key="frame" x="19" y="375" width="337.5" height="187.5"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="5QY-dI-RFT" secondAttribute="height" multiplier="349:194" id="FLW-ag-Gny"/>
+                                </constraints>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7Bz-Hr-50H">
+                                <rect key="frame" x="0.0" y="617.5" width="375" height="49.5"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="UniaIcon" translatesAutoresizingMaskIntoConstraints="NO" id="wGS-T9-0LE">
+                                        <rect key="frame" x="10" y="0.0" width="355" height="50"/>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="wGS-T9-0LE" secondAttribute="trailing" constant="10" id="FeR-Jn-HCq"/>
+                                    <constraint firstItem="wGS-T9-0LE" firstAttribute="top" secondItem="7Bz-Hr-50H" secondAttribute="top" id="O4P-3a-LAi"/>
+                                    <constraint firstAttribute="bottom" secondItem="wGS-T9-0LE" secondAttribute="bottom" id="f7L-Uq-w3G"/>
+                                    <constraint firstItem="wGS-T9-0LE" firstAttribute="leading" secondItem="7Bz-Hr-50H" secondAttribute="leading" constant="10" id="pBj-Qa-RQ6"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2qi-jK-mye">
+                                <rect key="frame" x="0.0" y="342.5" width="375" height="2"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="2" id="m21-Q4-wxM"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="0.0" green="0.4431372549" blue="0.8862745098" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="tintColor" red="0.0" green="0.4431372549" blue="0.8862745098" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="vV5-Vv-bYX" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="6l4-0j-BNb"/>
+                            <constraint firstItem="7Bz-Hr-50H" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="8PC-dj-H90"/>
+                            <constraint firstItem="vV5-Vv-bYX" firstAttribute="width" secondItem="Ze5-6b-2t3" secondAttribute="width" multiplier="0.25" id="9uw-hE-JYc"/>
+                            <constraint firstItem="c9I-Oh-w6L" firstAttribute="width" secondItem="Ze5-6b-2t3" secondAttribute="width" id="Bj7-op-xWL"/>
+                            <constraint firstItem="7Bz-Hr-50H" firstAttribute="height" secondItem="Ze5-6b-2t3" secondAttribute="height" multiplier="0.074" id="GZT-IW-4vj"/>
+                            <constraint firstItem="c9I-Oh-w6L" firstAttribute="top" secondItem="vV5-Vv-bYX" secondAttribute="bottom" constant="27" id="HCr-gV-hYB"/>
+                            <constraint firstItem="2qi-jK-mye" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="HMV-eA-tA4"/>
+                            <constraint firstItem="5QY-dI-RFT" firstAttribute="top" secondItem="2qi-jK-mye" secondAttribute="bottom" constant="30.5" id="Qwu-L2-oZd"/>
+                            <constraint firstItem="2qi-jK-mye" firstAttribute="width" secondItem="Ze5-6b-2t3" secondAttribute="width" id="WRf-1D-mvb"/>
+                            <constraint firstItem="5QY-dI-RFT" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="hCo-Xx-sbL"/>
+                            <constraint firstItem="7Bz-Hr-50H" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="kbT-gp-BYa"/>
+                            <constraint firstItem="2qi-jK-mye" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="pOT-xF-n3w"/>
+                            <constraint firstItem="2qi-jK-mye" firstAttribute="top" secondItem="c9I-Oh-w6L" secondAttribute="bottom" constant="5" id="pXY-ov-BvE"/>
+                            <constraint firstItem="c9I-Oh-w6L" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="qyQ-aU-1h5"/>
+                            <constraint firstItem="7Bz-Hr-50H" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="snP-9p-dH7"/>
+                            <constraint firstItem="5QY-dI-RFT" firstAttribute="width" secondItem="Ze5-6b-2t3" secondAttribute="width" multiplier="0.9" id="zTv-Ot-mzU"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52" y="374.66266866566718"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Herb" width="89" height="109"/>
+        <image name="SolaryWitaj" width="358" height="191"/>
+        <image name="UniaIcon" width="350" height="25"/>
+    </resources>
+</document>
